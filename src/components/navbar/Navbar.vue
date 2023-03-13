@@ -49,8 +49,25 @@ $shadow: 2px 2px 4px #000;
 .links {
   color: $link-color;
   font-size: 30px;
+
+  &:hover {
+    text-decoration: $link-hover-color;
+  }
 }
-.links:hover {
-  text-decoration: $link-hover-color;
+@media (max-width: 375px) {
+  #linksContainer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .linkContainer {
+    margin-right: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .links {
+    font-size: 20px;
+  }
 }
 </style>
