@@ -54,10 +54,10 @@ $shadow: 2px 2px 4px #000;
     text-decoration: $link-hover-color;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   #linksContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-right: 0;
   }
   .linkContainer {
@@ -67,7 +67,7 @@ $shadow: 2px 2px 4px #000;
     text-align: center;
   }
   .links {
-    font-size: 20px;
+    font-size: 10px;
   }
 }
 </style>
