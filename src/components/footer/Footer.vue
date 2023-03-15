@@ -31,15 +31,4 @@ $font-size: 10px;
     text-decoration: none;
   }
 }
-/* #footer {
-  font-family: "GamesOfThrones";
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  color: #fff;
-  font-size: 10px;
-} */
 </style>
